@@ -15,3 +15,8 @@ ol li {
   color: blue;
   font-size: large;
 }
+
+div,
+footer {
+    text-align: center;
+}
