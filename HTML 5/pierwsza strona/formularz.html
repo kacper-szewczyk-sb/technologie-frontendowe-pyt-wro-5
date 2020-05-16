@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formularz kontaktowy</title>
+    </head>
+    <body>
+        <form name="formularz" method="post" onsubmit="return zweryfikuj()">
+            Login: <input type="text" name="login"> <br>
+            Hasło: <input type="password" name="haslo"><br>
+            <input type="submit" value="Zaloguj">
+        </form>
+
+        <script>
+            function zweryfikuj() {
+                let login = document.formularz.login.value;
+                let password = document.formularz.haslo.value;
+
+                if (login == null || login == "") {
+                    alert("Login nie moze być pusty");
+                    return false;
+                }
+                else if (password.length < 6) {
+                    alert("Za krótkie hasło");
+                    return false;
+                }
+                return true;
+            }
+        </script>
+
+    </body>
+</html>
