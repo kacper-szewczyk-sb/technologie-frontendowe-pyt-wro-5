@@ -20,3 +20,15 @@ div,
 footer {
     text-align: center;
 }
+
+header {
+    background-color: darksalmon;
+}
+
+.paragraf {
+    background-color: dimgray;
+}
+
+p.paragraf {
+    color: white;
+}
