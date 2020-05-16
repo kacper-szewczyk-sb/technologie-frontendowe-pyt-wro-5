@@ -1,8 +1,23 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+        <meta http-equiv="Content-Language" content="pl" />
+    </head>
     <body>
-        <button type="button" onclick="document.getElementById('data-paragraf').innerHTML = new Date()">Kliknij, zeby pokazać datę</button>
+        <button type="button" 
+        onclick="getDate()">Kliknij, zeby pokazać datę</button>
 
         <p id="data-paragraf">Stary tekst</p>
+
+        <script>
+            function getDate() {
+                let todayTime = new Date();
+                let month = todayTime.getMonth() + 1;
+                let day = todayTime.getDate();
+                let year = todayTime.getFullYear();
+                document.getElementById('data-paragraf').innerHTML = day + "-" + month + "-" + year;
+            }
+        </script>
     </body>
 </html>
