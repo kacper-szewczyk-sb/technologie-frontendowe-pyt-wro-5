@@ -5,10 +5,10 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1 {
-  color: seagreen;
+    color: seagreen;
     font-size: xx-large;
     font-weight: bold;
-
+    text-transform: uppercase;
 }
 
 ol li {
@@ -31,4 +31,10 @@ header {
 
 p.paragraf {
     color: white;
+}
+
+#naglowek {
+    text-transform: lowercase;
+    color: tomato;
+    text-align: center;
 }
