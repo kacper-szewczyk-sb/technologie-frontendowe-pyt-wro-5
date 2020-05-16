@@ -9,6 +9,7 @@ h1 {
     font-size: xx-large;
     font-weight: bold;
     text-transform: uppercase;
+    text-shadow: 2px 2px 1px silver;
 }
 
 ol li {
@@ -31,10 +32,15 @@ header {
 
 p.paragraf {
     color: white;
+    text-indent: 1rem;
 }
 
 #naglowek {
     text-transform: lowercase;
     color: tomato;
     text-align: center;
+}
+
+body {
+    background: url(https://i0.wp.com/primesystem.pl/wp-content/uploads/2018/01/4972466-yellow-background.jpg?ssl=1) center center;
 }
