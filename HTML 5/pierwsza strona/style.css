@@ -1,5 +1,5 @@
 p {
-    color: red;
+    color: black;
     font-size: small;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -43,4 +43,22 @@ p.paragraf {
 
 body {
     background: url(https://i0.wp.com/primesystem.pl/wp-content/uploads/2018/01/4972466-yellow-background.jpg?ssl=1) center center;
+}
+
+.blok-1 {
+    padding: 5rem;
+    background-color: tomato;
+    margin: 0rem 1rem;
+}
+
+.blok-2 {
+    padding: 10rem;
+    background-color: skyblue;
+    margin: 2rem;
+}
+
+.image-1 {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
 }
