@@ -31,3 +31,23 @@
 .overflow-auto {
     overflow: auto;
 }
+
+.blok {
+    width: 200px;
+    height: 200px;
+}
+
+.blok1 {
+    float: left;
+    background: blue;
+}
+
+.blok2 {
+    float: right;
+    background: red;
+}
+
+.blok3 {
+    float: left;
+    background: orange;
+}
