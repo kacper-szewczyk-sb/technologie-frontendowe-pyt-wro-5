@@ -45,9 +45,16 @@
 .blok2 {
     float: right;
     background: red;
+    clear: both;
 }
 
 .blok3 {
     float: left;
     background: orange;
+}
+
+.blok4 {
+    float: left;
+    background: purple;
+    clear: left;
 }
