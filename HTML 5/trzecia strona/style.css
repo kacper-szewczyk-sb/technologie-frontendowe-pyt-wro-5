@@ -60,3 +60,15 @@
 .margin-top-300 {
     margin-top: 300px;
 }
+
+.image-list {
+    list-style-type: none;
+}
+
+.image-list li::before {
+    content: '';
+    background: url(images/iran.jpg);
+    width: 25px;
+    height: 25px;
+    display: block;
+}
