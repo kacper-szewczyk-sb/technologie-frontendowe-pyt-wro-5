@@ -58,3 +58,33 @@
     background: purple;
     clear: left;
 }
+
+.blok-red {
+    background: red;
+}
+
+.blok-position-1 {
+    position: absolute;
+    left: 500px;
+    bottom: 0px;
+}
+
+
+.blok-position-2 {
+    position: relative;
+    left: 500px;
+    bottom: 0px;
+    background: green;
+}
+
+.blok-position-3 {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: grey;
+    border-radius: 100px;
+}
+
+.height-400 {
+    height: 400px;
+}
