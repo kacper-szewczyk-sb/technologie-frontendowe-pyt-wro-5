@@ -1,0 +1,20 @@
+.middle {
+    margin-top: 20rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+html {
+    background: wheat;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+#time {
+    font-size: xx-large;
+}
