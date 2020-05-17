@@ -1,0 +1,25 @@
+.bordered {
+    border-left: 2px solid tomato;
+    border-bottom: 1px dashed salmon;
+}
+
+.bordered-full {
+    border: 2px solid violet;
+}
+
+.separated {
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.bordered-round {
+    border-radius: 100px;
+}
+
+.width-limited {
+    width: 700px;
+}
+
+.image-1 {
+    width: 1000px;
+}
