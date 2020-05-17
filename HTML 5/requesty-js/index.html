@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="dane"></p>
+
+        <button type="button" onclick="pobierzDane()">Pobierz dane</button>
+
+        <script>
+            function pobierzDane() {
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                        document.getElementById("dane").innerHTML = this.responseText;
+                    }
+                };
+                xhttp.open('GET', 'https://jsonplaceholder.typicode.com/todos/1',true);
+                xhttp.send();
+            }
+        </script>
+    </body>
+</html>
