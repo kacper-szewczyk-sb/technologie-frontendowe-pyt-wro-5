@@ -17,9 +17,17 @@
 }
 
 .width-limited {
-    width: 700px;
+    width: 400px;
 }
 
 .image-1 {
     width: 1000px;
+}
+
+.height-limited {
+    max-height: 100px;
+}
+
+.overflow-auto {
+    overflow: auto;
 }
