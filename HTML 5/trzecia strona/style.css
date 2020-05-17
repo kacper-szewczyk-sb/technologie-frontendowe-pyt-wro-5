@@ -18,12 +18,14 @@
     left: 25px;
     top: 25px;
     z-index: 2;
+    transform: skew(-45deg, 10deg);
 }
 .box-2 {
     background: red;
     left: 50px;
     top: 50px;
     z-index: 1;
+    transform: perspective(150px);
 }
 
 .box-3 {
@@ -79,4 +81,11 @@
     width: 25px;
     height: 25px;
     display: block;
+}
+
+@media (max-width: 768px) {
+    .box-5,
+    .box-4 {
+        display: none;
+    }
 }
