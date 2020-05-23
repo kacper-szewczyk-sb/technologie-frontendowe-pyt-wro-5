@@ -11,13 +11,13 @@ class RequestElement extends React.Component {
     }
 
     componentDidMount() {
-        fetch("https://jsonplaceholder.typicode.com/todos/1", { mode: 'no-cors'})
+        fetch("https://jsonplaceholder.typicode.com/todos/1")
         .then(res => res.json())
         .then((result) => {
                 console.log(result);
                 this.setState({
                     isLoaded: true,
-                    title: result
+                    title: result.title
                 })
             },
             (error) => {
@@ -33,7 +33,7 @@ class RequestElement extends React.Component {
         return (
             <div>
                 {!this.state.isLoaded ? "Laduje" : "Zaladowano"}
-                {this.state.title}
+                <h2>{this.state.title}</h2>
             </div>
         )
     }
