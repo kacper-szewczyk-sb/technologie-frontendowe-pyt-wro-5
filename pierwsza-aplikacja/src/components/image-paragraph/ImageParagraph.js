@@ -21,7 +21,7 @@ class ImageParagraph extends Component {
         console.log("Renderowanie");
         return (
             <section>
-                <h2>Paragraf ze zdjęciem</h2>
+                <h2>{this.props.tytul}</h2>
                 <div className="row">
                     <div className="desktop-50-width">
                         <img src={logo} className="App-logo" alt="logo" />
