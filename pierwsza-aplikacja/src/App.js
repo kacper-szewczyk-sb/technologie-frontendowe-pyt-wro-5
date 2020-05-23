@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Footer from './components/footer/Footer';
+import Paragraph from './components/paragraph/Paragraph';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </a>
         <p>Test lorem ipsum</p>
       </header>
+      <Paragraph></Paragraph>
       <Footer></Footer>
     </div>
   );
