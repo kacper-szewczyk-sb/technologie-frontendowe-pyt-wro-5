@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Footer from './components/footer/Footer';
 import Paragraph from './components/paragraph/Paragraph';
+import ImageParagraph from './components/image-paragraph/ImageParagraph';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         </a>
         <p>Test lorem ipsum</p>
       </header>
+      <Paragraph></Paragraph>
+      <ImageParagraph></ImageParagraph>
+      <Paragraph></Paragraph>
       <Paragraph></Paragraph>
       <Footer></Footer>
     </div>

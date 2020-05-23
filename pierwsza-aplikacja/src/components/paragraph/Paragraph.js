@@ -2,9 +2,10 @@ import React from 'react';
 import './Paragraph.css';
 
 function Paragraph() {
+    let value = "test";
     return (
         <section className="App-paragraph">
-            <h2>Lorem ipsum</h2>
+            <h2>Lorem ipsum {value}</h2>
             <p>
             Lorem Ipsum is simply dummy text of the printing and 
             typesetting industry. 
