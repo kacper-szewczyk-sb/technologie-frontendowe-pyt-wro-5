@@ -6,3 +6,7 @@ ul {
 ul li {
     margin: auto 0.2rem;
 }
+
+.separated {
+    margin: 2rem 0;
+}
