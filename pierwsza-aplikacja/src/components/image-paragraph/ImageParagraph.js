@@ -4,6 +4,9 @@ import logo from './logo.svg';
 
 class ImageParagraph extends Component {
 
+    handleClick = () => {
+        console.log("Nacisnieto");
+    }
 
     render() {
         return (
@@ -27,6 +30,7 @@ class ImageParagraph extends Component {
                         and more recently with desktop publishing software like Aldus
                             PageMaker including versions of Lorem Ipsum.
                         </p>
+                        <button onClick={this.handleClick}>Naciśnij</button>
                     </div>
                 </div>
             </section>
