@@ -6,6 +6,7 @@ import Paragraph from './components/paragraph/Paragraph';
 import ImageParagraph from './components/image-paragraph/ImageParagraph';
 import ImageParagraphRight from './components/image-paragraph-right/ImageParagraphRight';
 import ListAlphabet from './components/list-alphabet/ListAlphabet';
+import RequestElement from './components/request-element/RequestElement';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <p>Test lorem ipsum</p>
       </header>
       <Paragraph></Paragraph>
+      <RequestElement></RequestElement>
       <ImageParagraph tytul="Paragraf zainicjalizowany z App.js" 
       zdjecie={logo}></ImageParagraph>
       <ListAlphabet/>
