@@ -24,7 +24,7 @@ function App() {
         <p>Test lorem ipsum</p>
       </header>
       <Paragraph></Paragraph>
-      <ImageParagraph tytul="Paragraf zainicjalizowany z App.js"></ImageParagraph>
+      <ImageParagraph tytul="Paragraf zainicjalizowany z App.js" zdjecie={logo}></ImageParagraph>
       <Paragraph></Paragraph>
       <Paragraph></Paragraph>
       <Footer></Footer>

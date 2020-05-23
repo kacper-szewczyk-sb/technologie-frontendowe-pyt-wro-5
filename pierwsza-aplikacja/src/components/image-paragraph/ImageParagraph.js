@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './ImageParagraph.css';
-import logo from './logo.svg';
 
 class ImageParagraph extends Component {
 
@@ -24,7 +23,7 @@ class ImageParagraph extends Component {
                 <h2>{this.props.tytul}</h2>
                 <div className="row">
                     <div className="desktop-50-width">
-                        <img src={logo} className="App-logo" alt="logo" />
+                        <img src={this.props.zdjecie} className="App-logo" alt="logo" />
                     </div>
                     <div className="desktop-50-width">
                         <p>
