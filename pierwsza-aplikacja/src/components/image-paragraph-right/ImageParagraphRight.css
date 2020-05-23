@@ -1,0 +1,9 @@
+
+@media (min-width: 768px) {
+    .row {
+        display: flex;
+    }
+    .desktop-50-width {
+        width: 50%;
+    }
+}
