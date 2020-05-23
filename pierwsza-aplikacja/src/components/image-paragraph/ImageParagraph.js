@@ -4,11 +4,21 @@ import logo from './logo.svg';
 
 class ImageParagraph extends Component {
 
+    constructor(props) {
+        super(props);
+        console.log("Konstruktor");
+    }
+
     handleClick = () => {
         console.log("Nacisnieto");
     }
 
+    componentDidMount() {
+        console.log("Komponent wyrenderowany");
+    }
+
     render() {
+        console.log("Renderowanie");
         return (
             <section>
                 <h2>Paragraf ze zdjęciem</h2>
